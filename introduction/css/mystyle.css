@@ -8,7 +8,6 @@ body {
   background-color: #e6ecff;
 }
 
-/* HEADER */
 .header {
   background: #7b6cf6;
   color: white;
@@ -17,21 +16,20 @@ body {
   border-radius: 0 0 20px 20px;
 }
 
-/* MAIN LAYOUT */
+
 .main {
   display: flex;
   gap: 20px;
   padding: 20px;
 }
 
-/* CARDS */
 .card {
   background: white;
   border-radius: 20px;
   padding: 20px;
 }
 
-/* LEFT */
+
 .picture-card {
   background: #ff9b66;
   color: white;
@@ -50,7 +48,7 @@ body {
   border-radius: 10px;
 }
 
-/* RIGHT */
+
 .info-card {
   flex: 2;
 }
@@ -60,7 +58,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* FOOTER */
+
 .footer {
   background: #333;
   color: white;
@@ -70,7 +68,7 @@ body {
   border-radius: 20px 20px 0 0;
 }
 
-/* ✅ RESPONSIVE (RWD) */
+
 @media (max-width: 768px) {
   .main {
     flex-direction: column;
