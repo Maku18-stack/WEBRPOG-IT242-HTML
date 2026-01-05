@@ -1,12 +1,26 @@
-.container {
-  display: flex;
-  background-color: rgb(245, 139, 1);
+body {
+  font-family: Arial, sans-serif;
 }
 
-.container div {
-  background-color: #000000;
-  margin: 10px;
+h1 {
+  margin-bottom: 20px;
+}
+
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+
+
+.box {
+  background-color: #fde9ee; /* light pink */
   padding: 20px;
-  font-size: 24px;
-  color: rgb(255, 255, 255);
+  width: 33%;
+  text-align: center;
+}
+
+/* IMAGES */
+.box img {
+  margin: 5px;
 }
