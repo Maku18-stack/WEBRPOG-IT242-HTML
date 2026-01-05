@@ -1,18 +1,11 @@
-body {
-    background-color: lightblue;
-}
- 
-h1 {
-    color: navy;
-    margine-left: 20px;
+.container {
+  display: flex;
+  background-color: rgb(245, 139, 1);
 }
 
-h2{
-    /*display: inline;*/
-    color: rgb(57, 0, 123)
-}
-
-h3 {
-    /*display: inline;*/
-    color: purple
+.container div {
+  background-color: #000000;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
 }
