@@ -4,6 +4,7 @@ body {
 
 h1 {
   margin-bottom: 20px;
+  color: black;
 }
 
 
@@ -14,13 +15,13 @@ h1 {
 
 
 .box {
-  background-color: #fde9ee; /* light pink */
+  background-color: #ff8902; /* light pink */
   padding: 20px;
   width: 33%;
   text-align: center;
 }
 
-/* IMAGES */
+
 .box img {
   margin: 5px;
 }
