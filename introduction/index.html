@@ -1,28 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>WEBPROG IT242 Introduction - Mark Benedict D. Ani</title>
+  <title>Mark Benedict D. Ani | Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/mystyle.css">
 </head>
 <body>
- 
-<h1>Personal Profile Web page </h1>
-<p>
- 
-About Me<br>
-Name: Mark Benedict D. Ani<br>
- 
-Education / Achievements<br>
-Elementary: La Trinidad Academy
-Junior Highschool: La Trinidad Academy
-Senior Highschool: Emilio Aguinaldo College
-College: Asia Pacific College<br>
-Course: IT<br>
-IT Experience: UI/UX, Jave, MySQL WorkBench<br>
-Hobbies & Interests: Playing Online games, Watching Movies, Traveling,Basket ball, <br>
-Goals In Life / Dream: To beome successful and wealthy in life<br>
-Picture Gallery<br>
- <img src="https://luxlux.net/lux/wp-content/uploads/steph-curry-4-1-scaled.jpeg" alt="Me" width="500" height="600">
-</p>
-  
+
+<header class="hero-gradient text-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Mark Benedict D. Ani</h1>
+    <p class="fs-5 opacity-75">IT Student @ Asia Pacific College</p>
+  </div>
+</header>
+
+<main class="container mt-n4">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card profile-card p-4 mb-4 text-center">
+        <div class="img-hover-zoom mb-3">
+          <img src="https://luxlux.net/lux/wp-content/uploads/steph-curry-4-1-scaled.jpeg" 
+               alt="Mark Ani" class="img-fluid w-100">
+        </div>
+        <h4 class="fw-bold">Bio</h4>
+        <p class="text-muted small">Passionate about UI/UX and backend development. Driven by the goal of financial success.</p>
+        <hr>
+        <div class="text-start">
+            <p><strong>🏀 Sports:</strong> Basketball</p>
+            <p><strong>🎮 Gaming:</strong> Online Games</p>
+            <p><strong>✈️ Travel:</strong> Exploring places</p>
+            <p><strong>🎬 Media:</strong> Watching Movies</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-8">
+      <div class="card profile-card p-4 mb-4">
+        <h3 class="section-title">Technical Experience</h3>
+        <div class="d-flex flex-wrap">
+          <span class="skill-badge">UI/UX Design</span>
+          <span class="skill-badge">Java</span>
+          <span class="skill-badge">MySQL Workbench</span>
+          <span class="skill-badge">Bootstrap 5</span>
+        </div>
+      </div>
+
+      <div class="card profile-card p-4 mb-4">
+        <h3 class="section-title">Educational Background</h3>
+        <div class="table-responsive">
+          <table class="table align-middle">
+            <thead class="table-light">
+              <tr>
+                <th>Level</th>
+                <th>School</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>College</strong></td><td>Asia Pacific College (IT)</td></tr>
+              <tr><td><strong>Senior High</strong></td><td>Emilio Aguinaldo College</td></tr>
+              <tr><td><strong>Junior High</strong></td><td>La Trinidad Academy</td></tr>
+              <tr><td><strong>Elementary</strong></td><td>La Trinidad Academy</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card profile-card p-4 bg-dark text-white text-center">
+        <h3 class="fw-bold text-primary">Life Mission</h3>
+        <p class="fst-italic">"To become successful and wealthy in life through hard work and technology."</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="text-center py-5 mt-5 text-muted border-top">
+  <p>&copy; 2024 Mark Ani | Web Development IT242</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
