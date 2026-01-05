@@ -1,18 +1,16 @@
 body {
     background-color: lightblue;
 }
- 
+
 h1 {
     color: navy;
-    margine-left: 20px;
+    margin-left: 20px; /* fixed typo */
 }
 
-h2{
-    /*display: inline;*/
-    color: rgb(57, 0, 123)
+h2 {
+    color: rgb(57, 0, 123);
 }
 
 h3 {
-    /*display: inline;*/
-    color: purple
+    color: purple;
 }
